@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-    origin: "https://kanakagrawal-bfhl-herokuapp-com-bfhl.onrender.com",
+    origin: "https://https-kanakagrawal-bfhl-herokuapp-com.onrender.com",
     credentials: true
 }))
 app.use(express.json());
